@@ -3,14 +3,16 @@ import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
 import portrait from "@/assets/sune-portrait.jpg";
 import { ArrowRight } from "lucide-react";
+import { setSeo } from "@/lib/seo";
 
 const About = () => {
   useEffect(() => {
-    document.title = "Om Sune Moldt — Moldt Consulting";
-    const meta = document.querySelector('meta[name="description"]') || (() => {
-      const m = document.createElement("meta"); m.setAttribute("name", "description"); document.head.appendChild(m); return m;
-    })();
-    meta.setAttribute("content", "Sune Moldt — digital- og marketingspecialist. Strategisk sparring for ledelse med fokus på prioritering, kundeoplevelse og målbar effekt.");
+    setSeo({
+      title: "Om Sune Moldt — Strategisk digital sparring | Moldt Consulting",
+      description:
+        "Mød Sune Moldt: digital- og marketingrådgiver med fokus på prioritering, kundeoplevelse og målbar effekt for ledelse og bestyrelse.",
+      path: "/om",
+    });
   }, []);
 
   return (
