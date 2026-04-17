@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Linkedin } from "lucide-react";
 import logo from "@/assets/logo-moldt.png";
 
 const SiteFooter = () => {
@@ -23,7 +24,17 @@ const SiteFooter = () => {
           <p className="text-muted-foreground mb-3">Kontakt</p>
           <ul className="space-y-2">
             <li><a href="mailto:sune@moldtconsulting.dk" className="hover:text-accent">sune@moldtconsulting.dk</a></li>
-            <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="hover:text-accent">LinkedIn</a></li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/sunemoldt/"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center gap-2 hover:text-accent"
+              >
+                <Linkedin className="h-4 w-4" strokeWidth={1.75} />
+                LinkedIn
+              </a>
+            </li>
           </ul>
         </div>
       </div>
