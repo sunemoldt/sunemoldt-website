@@ -78,7 +78,7 @@ const Contact = () => {
               </li>
               <li className="flex items-start gap-3">
                 <Linkedin className="h-5 w-5 mt-0.5 text-accent" strokeWidth={1.5} />
-                <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" className="hover:text-accent">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/sunemoldt/" target="_blank" rel="noreferrer" className="hover:text-accent">linkedin.com/in/sunemoldt</a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 mt-0.5 text-accent" strokeWidth={1.5} />
