@@ -5,17 +5,9 @@ import { ArrowRight, Compass, Layers, Route, BarChart3, Sparkles, LineChart } fr
 import { useEffect } from "react";
 
 const services = [
-  { icon: Compass, title: "Digital strategi & prioritering", body: "Klar retning for e-commerce, marketing og digitale kundeoplevelser — forankret i forretningens mål og økonomi." },
-  { icon: Layers, title: "Platform- & teknologivalg", body: "Uafhængig rådgivning om web-, e-commerce- og marketingplatforme, der matcher kundebehov, organisation og skalering." },
-  { icon: Route, title: "Kundeoplevelse & kunderejser", body: "Analyse og strategisk optimering af touchpoints med fokus på konvertering, loyalitet og langsigtet værdi." },
-  { icon: BarChart3, title: "Marketing- & vækststrategi", body: "Rammesætning for synlighed og performance på tværs af SEO, paid media, e-mail og markedspladser." },
-  { icon: Sparkles, title: "AI, automation & effektivisering", body: "Identificering af muligheder, hvor teknologi skaber reel forretningsværdi — uden at komplicere organisationen." },
-  { icon: LineChart, title: "Data & beslutningsgrundlag", body: "Strukturering af data og KPI'er, så I kan prioritere, justere og investere på et oplyst grundlag." },
-];
-
-const principles = [
-  { n: "01", t: "Forretning før teknologi", b: "Vi starter med målsætning og økonomi — ikke med værktøjer." },
-  { n: "02", t: "Færre, men bedre valg", b: "Prioritering frem for fragmenterede initiativer uden retning." },
+  { icon: Compass, title: "Digital marketing strategi & prioritering", body: "Klar retning for e-commerce, marketing og digitale kundeoplevelser — forankret i forretningens mål og økonomi." },
+// ... keep existing code
+  { n: "02", t: "Færre, men bedre valg", b: "Prioritering frem for fragmenterede initiativer uden retning, eller værdifulde løsninger." },
   { n: "03", t: "Effekt frem for aktivitet", b: "Succes måles på resultater i bundlinjen — ikke på antal projekter." },
 ];
 
@@ -48,7 +40,7 @@ const Index = () => {
             Klarhed, prioritering og <em className="not-italic text-accent">målbar effekt</em> på jeres digitale forretning.
           </h1>
           <p className="reveal reveal-delay-2 mt-8 max-w-2xl text-lg text-muted-foreground text-balance">
-            Jeg hjælper ledelse og beslutningstagere med at skære ind til kernen, vælge de rigtige indsatser og omsætte digitale ambitioner til reel vækst — uden støj eller overkompleksitet.
+            Jeg hjælper ledelse og beslutningstagere med at skære ind til kernen, vælge de rigtige indsatser og omsætte digital- og marketing ambitioner til reel vækst — uden støj eller overkompleksitet.
           </p>
           <div className="reveal reveal-delay-3 mt-10 flex flex-wrap gap-4">
             <Link
@@ -74,7 +66,7 @@ const Index = () => {
           <p className="md:col-span-4 text-sm tracking-widest uppercase text-muted-foreground">Tilgang</p>
           <div className="md:col-span-8">
             <p className="font-serif text-2xl md:text-3xl leading-snug text-balance">
-              Mange virksomheder investerer i digitale initiativer uden klar sammenhæng mellem strategi, kundeoplevelse og bundlinje. Min rolle er ikke at gøre det hele —
+              Mange virksomheder investerer i digitale marketing initiativer uden klar sammenhæng mellem strategi, kundeoplevelse og bundlinje. Min rolle er ikke at gøre det hele —
               <span className="text-accent"> men at sikre, at I gør det rigtige.</span>
             </p>
             <div className="mt-12 grid sm:grid-cols-3 gap-8">
@@ -154,7 +146,7 @@ const Index = () => {
             Lad os tale om jeres digitale retning.
           </h2>
           <p className="mt-6 text-lg text-muted-foreground text-balance">
-            En uforpligtende samtale om, hvordan I skaber en mere sammenhængende, lønsom og fremtidssikret digital strategi.
+            En uforpligtende samtale om, hvordan I skaber en mere sammenhængende marketing.
           </p>
           <Link
             to="/kontakt"
