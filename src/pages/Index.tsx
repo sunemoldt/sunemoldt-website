@@ -6,7 +6,15 @@ import { useEffect } from "react";
 
 const services = [
   { icon: Compass, title: "Digital marketing strategi & prioritering", body: "Klar retning for e-commerce, marketing og digitale kundeoplevelser — forankret i forretningens mål og økonomi." },
-// ... keep existing code
+  { icon: Layers, title: "Digital modenhed & organisation", body: "Vurdering af kompetencer, processer og teknologi — så I bygger en organisation, der kan eksekvere." },
+  { icon: Route, title: "Kunderejser & e-commerce", body: "Sammenhæng mellem brand, kanaler og konvertering på tværs af berøringspunkter." },
+  { icon: BarChart3, title: "Performance & måling", body: "Fra data til beslutninger: KPI'er, attribution og styring der faktisk bruges." },
+  { icon: Sparkles, title: "AI i marketing & e-commerce", body: "Pragmatisk anvendelse af AI til indhold, personalisering og effektivisering." },
+  { icon: LineChart, title: "Sparring til ledelse & bestyrelse", body: "Ekstern rådgiver der oversætter digitale muligheder til forretningssprog." },
+];
+
+const principles = [
+  { n: "01", t: "Forretning før teknologi", b: "Digitale valg skal tjene strategien — ikke omvendt." },
   { n: "02", t: "Færre, men bedre valg", b: "Prioritering frem for fragmenterede initiativer uden retning, eller værdifulde løsninger." },
   { n: "03", t: "Effekt frem for aktivitet", b: "Succes måles på resultater i bundlinjen — ikke på antal projekter." },
 ];
