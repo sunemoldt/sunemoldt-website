@@ -33,9 +33,9 @@ const SiteHeader = () => {
           : "bg-transparent"
       )}
     >
-      <nav className="container-wide flex h-20 items-center justify-between">
-        <Link to="/" className="flex items-center" aria-label="Moldt Consulting forside">
-          <img src={logo} alt="Moldt Consulting" className="h-10 md:h-12 w-auto" />
+      <nav className="container-wide flex h-24 md:h-28 items-center justify-between">
+        <Link to="/" className="flex items-center -my-2" aria-label="Moldt Consulting forside">
+          <img src={logo} alt="Moldt Consulting" className="h-16 md:h-20 w-auto" />
         </Link>
         <ul className="flex items-center gap-1 sm:gap-2">
           {links.map((l) => (
