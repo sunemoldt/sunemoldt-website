@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import logo from "@/assets/logo-moldt.png";
 
 const SiteFooter = () => {
   return (
     <footer className="border-t border-border bg-background">
       <div className="container-wide py-16 grid gap-10 md:grid-cols-3">
         <div>
-          <p className="font-serif text-xl">Moldt Consulting</p>
-          <p className="mt-3 text-sm text-muted-foreground max-w-xs">
+          <img src={logo} alt="Moldt Consulting" className="h-10 w-auto -ml-1" />
+          <p className="mt-4 text-sm text-muted-foreground max-w-xs">
             Strategisk digital rådgivning, der forbinder forretning, kunder og teknologi.
           </p>
         </div>
