@@ -6,7 +6,7 @@ const SiteFooter = () => {
     <footer className="border-t border-border bg-background">
       <div className="container-wide py-16 grid gap-10 md:grid-cols-3">
         <div>
-          <img src={logo} alt="Moldt Consulting" className="h-10 w-auto -ml-1" />
+          <img src={logo} alt="Moldt Consulting" className="h-16 w-auto -ml-2" />
           <p className="mt-4 text-sm text-muted-foreground max-w-xs">
             Strategisk digital rådgivning, der forbinder forretning, kunder og teknologi.
           </p>
