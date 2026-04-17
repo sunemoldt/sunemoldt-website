@@ -41,7 +41,7 @@ const SiteFooter = () => {
       <div className="border-t border-border">
         <div className="container-wide py-6 flex flex-col sm:flex-row justify-between gap-2 text-xs text-muted-foreground">
           <p>© {new Date().getFullYear()} Moldt Consulting. Alle rettigheder forbeholdes.</p>
-          <p>CVR · Danmark</p>
+          
         </div>
       </div>
     </footer>
