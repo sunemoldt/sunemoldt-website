@@ -20,9 +20,13 @@ const principles = [
 ];
 
 const Index = () => {
-
   return (
     <SiteLayout>
+      <Seo
+        title="Moldt Consulting — Strategisk digital rådgivning til ledelsen"
+        description="Strategisk digital rådgivning til ledelse og bestyrelse: prioritering, retning og målbar effekt på e-commerce, marketing og teknologi."
+        path="/"
+      />
       {/* HERO */}
       <section className="relative overflow-hidden">
         <img
