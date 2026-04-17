@@ -80,10 +80,6 @@ const Contact = () => {
                 <Linkedin className="h-5 w-5 mt-0.5 text-accent" strokeWidth={1.5} />
                 <a href="https://www.linkedin.com/in/sunemoldt/" target="_blank" rel="noreferrer" className="hover:text-accent">linkedin.com/in/sunemoldt</a>
               </li>
-              <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 mt-0.5 text-accent" strokeWidth={1.5} />
-                <span>Danmark — arbejder på tværs af landet</span>
-              </li>
             </ul>
           </div>
           <div className="rounded-md bg-secondary/60 p-6">
