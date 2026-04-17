@@ -42,7 +42,7 @@ const About = () => {
 
         <div className="md:col-span-7 space-y-6 text-lg leading-relaxed">
           <p>
-            Jeg har brugt min karriere på at hjælpe virksomheder med at få mere ud af deres digitale investeringer. Med rødder i marketing, e-commerce og forretningsudvikling oversætter jeg tekniske muligheder til konkrete forretningsbeslutninger.
+            Jeg har brugt min karriere på at hjælpe virksomheder med at få mere ud af deres digitale marketing investeringer. Med rødder i digital marketing, e-commerce og forretningsudvikling oversætter jeg tekniske muligheder til konkrete forretningsbeslutninger.
           </p>
           <p>
             Min rådgivning bygger på <span className="font-medium">forretningsforståelse, kundefokus og solidt købmandskab</span> — ikke trends for trendens skyld. Jeg arbejder tæt sammen med ledelse og nøglepersoner for at skabe fælles retning, udfordre antagelser og sikre, at digitale investeringer understøtter både vækst og drift.
@@ -63,7 +63,7 @@ const About = () => {
           </div>
           <div className="space-y-6 text-lg">
             <p>Jeg fungerer ofte som <span className="font-medium">ekstern strategisk rådgiver</span> — en uafhængig stemme, der ikke har en bestemt platform eller leverance at sælge ind til.</p>
-            <p>Det giver plads til de svære spørgsmål, og det gør anbefalingerne reelle. Mit mål er, at I træffer beslutninger, I står ved — også om to år.</p>
+            <p>Det giver plads til de svære spørgsmål, og det gør anbefalingerne reelle. Mit mål er, at I træffer beslutninger, har en plan, I står ved — også i fremtiden.</p>
           </div>
         </div>
       </section>
