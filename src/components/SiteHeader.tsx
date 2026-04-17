@@ -1,6 +1,7 @@
 import { Link, NavLink as RouterNavLink, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
+import logo from "@/assets/logo-moldt.png";
 
 const links = [
   { to: "/", label: "Forside" },
@@ -32,9 +33,9 @@ const SiteHeader = () => {
           : "bg-transparent"
       )}
     >
-      <nav className="container-wide flex h-16 items-center justify-between">
-        <Link to="/" className="font-serif text-lg tracking-tight">
-          Moldt<span className="text-muted-foreground"> Consulting</span>
+      <nav className="container-wide flex h-20 items-center justify-between">
+        <Link to="/" className="flex items-center" aria-label="Moldt Consulting forside">
+          <img src={logo} alt="Moldt Consulting" className="h-10 md:h-12 w-auto" />
         </Link>
         <ul className="flex items-center gap-1 sm:gap-2">
           {links.map((l) => (
