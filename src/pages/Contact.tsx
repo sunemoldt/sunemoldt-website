@@ -1,20 +1,11 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import SiteLayout from "@/components/SiteLayout";
-import { Mail, Linkedin, MapPin, ArrowRight } from "lucide-react";
+import Seo from "@/components/Seo";
+import { Mail, Linkedin, ArrowRight } from "lucide-react";
 import { toast } from "sonner";
-import { setSeo } from "@/lib/seo";
 
 const Contact = () => {
   const [sending, setSending] = useState(false);
-
-  useEffect(() => {
-    setSeo({
-      title: "Kontakt Moldt Consulting — Uforpligtende digital sparring",
-      description:
-        "Kontakt Sune Moldt for en uforpligtende dialog om jeres digitale strategi, prioritering og målbar vækst i marketing og e-commerce.",
-      path: "/kontakt",
-    });
-  }, []);
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -33,6 +24,11 @@ const Contact = () => {
 
   return (
     <SiteLayout>
+      <Seo
+        title="Kontakt Moldt Consulting — Uforpligtende digital sparring"
+        description="Kontakt Sune Moldt for en uforpligtende dialog om jeres digitale strategi, prioritering og målbar vækst i marketing og e-commerce."
+        path="/kontakt"
+      />
       <section className="container-wide pt-20 md:pt-28 pb-16">
         <p className="text-sm tracking-widest uppercase text-muted-foreground mb-6">Kontakt</p>
         <h1 className="font-serif text-5xl md:text-7xl leading-[1.05] text-balance max-w-4xl">

@@ -1,22 +1,17 @@
-import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
+import Seo from "@/components/Seo";
 import portrait from "@/assets/sune-portrait.jpg";
 import { ArrowRight } from "lucide-react";
-import { setSeo } from "@/lib/seo";
 
 const About = () => {
-  useEffect(() => {
-    setSeo({
-      title: "Om Sune Moldt — Strategisk digital sparring | Moldt Consulting",
-      description:
-        "Mød Sune Moldt: digital- og marketingrådgiver med fokus på prioritering, kundeoplevelse og målbar effekt for ledelse og bestyrelse.",
-      path: "/om",
-    });
-  }, []);
-
   return (
     <SiteLayout>
+      <Seo
+        title="Om Sune Moldt — Strategisk digital sparring | Moldt Consulting"
+        description="Mød Sune Moldt: digital- og marketingrådgiver med fokus på prioritering, kundeoplevelse og målbar effekt for ledelse og bestyrelse."
+        path="/om"
+      />
       <section className="container-wide pt-20 md:pt-28 pb-16">
         <p className="text-sm tracking-widest uppercase text-muted-foreground mb-6">Om</p>
         <h1 className="font-serif text-5xl md:text-7xl leading-[1.05] text-balance max-w-4xl">
