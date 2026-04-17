@@ -7,14 +7,14 @@ import { ArrowRight, Compass, Layers, Route, BarChart3, Sparkles, LineChart } fr
 const services = [
   { icon: Compass, title: "Digital marketing strategi & prioritering", body: "Klar retning for e-commerce, marketing og digitale kundeoplevelser — forankret i forretningens mål og økonomi." },
   { icon: Layers, title: "Digital modenhed & organisation", body: "Vurdering af kompetencer, processer og teknologi — så I bygger en organisation, der kan eksekvere." },
-  { icon: Route, title: "Kunderejser & e-commerce", body: "Sammenhæng mellem brand, kanaler og konvertering på tværs af berøringspunkter." },
-  { icon: BarChart3, title: "Performance & måling", body: "Fra data til beslutninger: KPI'er, attribution og styring der faktisk bruges." },
-  { icon: Sparkles, title: "AI i marketing & e-commerce", body: "Pragmatisk anvendelse af AI til indhold, personalisering og effektivisering." },
-  { icon: LineChart, title: "Sparring til ledelse & bestyrelse", body: "Ekstern rådgiver der oversætter digitale muligheder til forretningssprog." },
+  { icon: Route, title: "Kunderejser & e-commerce", body: "Sammenhæng mellem brand, kanaler og konvertering på tværs af berøringspunkter er afgørende — og forståelsen af digital adfærd bør altid komme før tiltagene." },
+  { icon: BarChart3, title: "Performance & måling", body: "Fra data til beslutninger: KPI'er, attribution og styring der faktisk bruges — ikke bare måles." },
+  { icon: Sparkles, title: "AI i marketing & e-commerce", body: "Pragmatisk anvendelse af AI til indhold, personalisering og effektivisering — uden at miste det menneskelige touch." },
+  { icon: LineChart, title: "Sparring til ledelse & bestyrelse", body: "Ekstern rådgiver der oversætter digitale muligheder til forretningssprog — og forretningsbehov til løsninger." },
 ];
 
 const principles = [
-  { n: "01", t: "Forretning før teknologi", b: "Digitale valg skal tjene strategien — ikke omvendt." },
+  { n: "01", t: "Forretning før teknologi", b: "Digitale værktøjer og kanal valg skal tjene strategien — ikke omvendt." },
   { n: "02", t: "Færre, men bedre valg", b: "Prioritering frem for fragmenterede initiativer uden retning, eller værdifulde løsninger." },
   { n: "03", t: "Effekt frem for aktivitet", b: "Succes måles på resultater i bundlinjen — ikke på antal projekter." },
 ];
@@ -42,7 +42,7 @@ const Index = () => {
             Strategisk digital rådgivning
           </p>
           <h1 className="reveal reveal-delay-1 font-serif text-5xl md:text-7xl leading-[1.05] text-balance max-w-4xl">
-            Klarhed, prioritering og <em className="not-italic text-accent">målbar effekt</em> på jeres digitale forretning.
+            Klarhed, prioritering og <em className="not-italic text-accent">målbar effekt</em> på jeres forretning.
           </h1>
           <p className="reveal reveal-delay-2 mt-8 max-w-2xl text-lg text-muted-foreground text-balance">
             Jeg hjælper ledelse og beslutningstagere med at skære ind til kernen, vælge de rigtige indsatser og omsætte digital- og marketing ambitioner til reel vækst — uden støj eller overkompleksitet.
@@ -65,7 +65,7 @@ const Index = () => {
           <p className="md:col-span-4 text-sm tracking-widest uppercase text-muted-foreground">Tilgang</p>
           <div className="md:col-span-8">
             <p className="font-serif text-2xl md:text-3xl leading-snug text-balance">
-              Mange virksomheder investerer i digitale marketing initiativer uden klar sammenhæng mellem strategi, kundeoplevelse og bundlinje. Min rolle er ikke at gøre det hele —
+              Mange virksomheder investerer i digitale marketinginitiativer uden en klar sammenhæng mellem strategi, kundeoplevelse og bundlinje. Min rolle er ikke at gøre det hele —
               <span className="text-accent"> men at sikre, at I gør det rigtige.</span>
             </p>
             <div className="mt-12 grid sm:grid-cols-3 gap-8">
