@@ -58,12 +58,6 @@ const Index = () => {
               Tag en uforpligtende dialog
               <ArrowRight className="h-4 w-4" />
             </Link>
-            <a
-              href="#ydelser"
-              className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm hover:bg-secondary transition-colors"
-            >
-              Se ydelser
-            </a>
           </div>
         </div>
       </section>
