@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
 import SiteLayout from "@/components/SiteLayout";
+import Seo from "@/components/Seo";
 import heroBg from "@/assets/hero-bg.jpg";
 import { ArrowRight, Compass, Layers, Route, BarChart3, Sparkles, LineChart } from "lucide-react";
-import { useEffect } from "react";
-import { setSeo } from "@/lib/seo";
 
 const services = [
   { icon: Compass, title: "Digital marketing strategi & prioritering", body: "Klar retning for e-commerce, marketing og digitale kundeoplevelser — forankret i forretningens mål og økonomi." },
@@ -21,14 +20,6 @@ const principles = [
 ];
 
 const Index = () => {
-  useEffect(() => {
-    setSeo({
-      title: "Moldt Consulting — Strategisk digital rådgivning til ledelsen",
-      description:
-        "Strategisk digital rådgivning til ledelse og bestyrelse: prioritering, retning og målbar effekt på e-commerce, marketing og teknologi.",
-      path: "/",
-    });
-  }, []);
 
   return (
     <SiteLayout>
