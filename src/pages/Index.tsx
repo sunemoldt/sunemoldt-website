@@ -110,7 +110,7 @@ const Index = () => {
         <div className="container-prose py-24 md:py-32 text-center">
           <p className="text-sm tracking-widest uppercase opacity-60 mb-8">Filosofi</p>
           <blockquote className="font-serif text-3xl md:text-5xl leading-tight text-balance">
-            “Min succes måles på <em className="not-italic text-accent">mine kunders succes.</em>”
+            “Sammen finder vi løsningerne – <em className="not-italic text-accent">Jeres succes er vores fælles mål.</em>”
           </blockquote>
           <p className="mt-8 text-sm opacity-70">— Sune Moldt</p>
         </div>
