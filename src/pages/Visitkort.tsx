@@ -10,10 +10,6 @@ const Visitkort = () => {
     <>
       <Helmet>
         <title>Sune Moldt</title>
-        <meta
-          name="description"
-          content="Sune Moldt — digital strateg fra Aabenraa. E-commerce, marketing og teknologi. Skriv til mig eller find mig på LinkedIn."
-        />
         <link rel="canonical" href="/" />
         <meta property="og:title" content="Sune Moldt" />
         <meta
