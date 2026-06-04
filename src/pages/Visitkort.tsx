@@ -9,12 +9,12 @@ const Visitkort = () => {
   return (
     <>
       <Helmet>
-        <title>Sune Moldt</title>
+        <title>Sune Moldt | Digital Strateg</title>
         <link rel="canonical" href="/" />
-        <meta property="og:title" content="Sune Moldt" />
+        <meta property="og:title" content="Sune Moldt | Digital Strateg" />
         <meta
           property="og:description"
-          content="Digital strateg fra Aabenraa. E-commerce, marketing og teknologi."
+          content="Digital strateg fra Aabenraa. E-commerce, marketing og teknologi der binder marketing, IT og salg sammen."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="/" />
