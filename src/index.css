@@ -148,7 +148,7 @@
 
 .visitkort-root .vk-card {
   display: grid;
-  grid-template-columns: 1fr clamp(230px, 34%, 360px);
+  grid-template-columns: 1fr clamp(260px, 42%, 420px);
   grid-template-areas:
     "kick  pic"
     "name  pic"
