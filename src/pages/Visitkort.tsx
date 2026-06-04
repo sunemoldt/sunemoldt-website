@@ -45,10 +45,6 @@ const Visitkort = () => {
           style={{ padding: "clamp(2rem,5vw,4rem) clamp(1.5rem,6vw,5rem)" }}
         >
           <div className="vk-card">
-            <div className="kicker">
-              <span className="dot" />
-              sunemoldt.dk
-            </div>
 
             <h1 className="vk-name">
               Sune <em>Moldt</em>
