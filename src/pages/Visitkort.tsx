@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet-async";
 import portrait from "@/assets/sune-portrait.jpg.asset.json";
-import { Mail, Linkedin, ArrowUpRight, MapPin } from "lucide-react";
+import { Mail, Linkedin, ArrowUpRight } from "lucide-react";
 
 const MAIL = "sune@sunemoldt.dk";
 const LINKEDIN = "https://www.linkedin.com/in/sunemoldt/";
@@ -10,10 +10,6 @@ const Visitkort = () => {
     <>
       <Helmet>
         <title>Sune Moldt</title>
-        <meta
-          name="description"
-          content="Sune Moldt — digital strateg fra Aabenraa. E-commerce, marketing og teknologi. Skriv til mig eller find mig på LinkedIn."
-        />
         <link rel="canonical" href="/" />
         <meta property="og:title" content="Sune Moldt" />
         <meta
@@ -55,9 +51,7 @@ const Visitkort = () => {
             </div>
 
             <h1 className="vk-name">
-              Sune
-              <br />
-              <em>Moldt</em>
+              Sune <em>Moldt</em>
             </h1>
 
             <p className="tagline">
@@ -91,10 +85,6 @@ const Visitkort = () => {
           style={{ padding: "1.4rem clamp(1.5rem,6vw,5rem)" }}
         >
           <div className="flex flex-wrap gap-y-2 gap-x-5 justify-between items-center text-[0.8rem]" style={{ color: "var(--vk-ink-faint)", borderTop: "1px solid var(--vk-paper-2)", paddingTop: "1.4rem" }}>
-            <div className="flex items-center gap-2">
-              <MapPin size={13} className="opacity-70" />
-              Aabenraa, Danmark
-            </div>
             <div>© {new Date().getFullYear()} Sune Moldt</div>
           </div>
         </footer>
