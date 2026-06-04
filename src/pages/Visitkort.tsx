@@ -51,7 +51,7 @@ const Visitkort = () => {
             </h1>
 
             <p className="tagline">
-              Digital strateg. <strong>E-commerce, marketing og den teknologi</strong>, der binder marketing, IT og salg sammen.
+              AI, Digital Marketing & E-commerce. Værdien skabes i <strong>snitfladen mellem marketing, tech og salg</strong>.
             </p>
 
             <p className="note">
