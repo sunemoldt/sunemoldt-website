@@ -4,7 +4,7 @@ import { Mail, Linkedin, ArrowUpRight } from "lucide-react";
 
 const MAIL = "sune@sunemoldt.dk";
 const LINKEDIN = "https://www.linkedin.com/in/sunemoldt/";
-const PORTRAIT_VERSION = "2026-06-12-1";
+const PORTRAIT_VERSION = "2026-06-12-2";
 
 const Visitkort = () => {
   return (
