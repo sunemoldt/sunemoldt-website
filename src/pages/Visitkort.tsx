@@ -49,6 +49,14 @@ const Visitkort = () => {
               Sune <em>Moldt</em>
             </h1>
 
+            <div className="pic">
+              <img
+                src={`/sune-portrait.jpg?v=${Date.now()}`}
+                alt="Sune Moldt portræt"
+                loading="eager"
+              />
+            </div>
+
             <p className="tagline">
               AI, Digital Marketing & E-commerce. Værdien skabes i <strong>snitfladen mellem marketing, tech og salg</strong>.
             </p>
