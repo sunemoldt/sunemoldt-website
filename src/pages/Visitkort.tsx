@@ -4,6 +4,7 @@ import { Mail, Linkedin, ArrowUpRight } from "lucide-react";
 
 const MAIL = "sune@sunemoldt.dk";
 const LINKEDIN = "https://www.linkedin.com/in/sunemoldt/";
+const PORTRAIT_VERSION = "2026-06-12-1";
 
 const Visitkort = () => {
   return (
@@ -72,7 +73,7 @@ const Visitkort = () => {
             </div>
 
             <div className="pic">
-              <img src={portrait} alt="Portræt af Sune Moldt" />
+              <img src={`${portrait}?v=${PORTRAIT_VERSION}`} alt="Portræt af Sune Moldt" />
             </div>
           </div>
         </main>
