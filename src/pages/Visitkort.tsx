@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet-async";
-import portrait from "@/assets/sune-portrait.jpg.asset.json";
+import portrait from "@/assets/sune-portrait.jpg";
 import { Mail, Linkedin, ArrowUpRight } from "lucide-react";
 
 const MAIL = "sune@sunemoldt.dk";
@@ -72,7 +72,7 @@ const Visitkort = () => {
             </div>
 
             <div className="pic">
-              <img src={portrait.url} alt="Portræt af Sune Moldt" />
+              <img src={portrait} alt="Portræt af Sune Moldt" />
             </div>
           </div>
         </main>
