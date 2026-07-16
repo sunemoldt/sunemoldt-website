@@ -1,84 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Moldt Consulting — minimalistisk, professionel design system. HSL only. */
+/* Moldt — Noir & Gold, redaktionelt og eksklusivt design system. HSL only. */
 
 @layer base {
   :root {
-    /* Editorial off-white with ink + warm ochre accent */
-    --background: 40 30% 97%;
-    --foreground: 0 0% 8%;
+    --background: 0 0% 5%;
+    --foreground: 42 38% 92%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 0 0% 8%;
+    --card: 0 0% 10%;
+    --card-foreground: 42 38% 92%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 8%;
+    --popover: 0 0% 10%;
+    --popover-foreground: 42 38% 92%;
 
-    --primary: 0 0% 8%;
-    --primary-foreground: 40 30% 97%;
+    --primary: 43 52% 55%;
+    --primary-foreground: 0 0% 5%;
 
-    --secondary: 38 25% 92%;
-    --secondary-foreground: 0 0% 8%;
+    --secondary: 0 0% 14%;
+    --secondary-foreground: 42 38% 92%;
 
-    --muted: 38 20% 94%;
-    --muted-foreground: 0 0% 38%;
+    --muted: 0 0% 14%;
+    --muted-foreground: 0 0% 55%;
 
-    /* Warm ochre — accent that brings life without losing seriousness */
-    --accent: 28 70% 48%;
-    --accent-foreground: 40 30% 97%;
+    --accent: 43 52% 55%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 70% 45%;
     --destructive-foreground: 0 0% 99%;
 
-    --border: 36 15% 86%;
-    --input: 36 15% 86%;
-    --ring: 0 0% 8%;
+    --border: 0 0% 18%;
+    --input: 0 0% 18%;
+    --ring: 43 52% 55%;
 
     --radius: 0.125rem;
 
-    /* Editorial gradients & shadows */
-    --gradient-warm: linear-gradient(180deg, hsl(40 35% 96%) 0%, hsl(36 28% 90%) 100%);
-    --gradient-fade: linear-gradient(180deg, hsl(40 30% 97% / 0) 0%, hsl(40 30% 97%) 100%);
-    --gradient-ink: linear-gradient(135deg, hsl(0 0% 10%) 0%, hsl(0 0% 18%) 100%);
-    --shadow-soft: 0 1px 2px hsl(0 0% 0% / 0.04), 0 8px 24px hsl(0 0% 0% / 0.06);
-    --shadow-elev: 0 2px 4px hsl(0 0% 0% / 0.06), 0 24px 48px -12px hsl(0 0% 0% / 0.18);
+    --gradient-warm: linear-gradient(180deg, hsl(0 0% 7%) 0%, hsl(0 0% 5%) 100%);
+    --gradient-fade: linear-gradient(180deg, hsl(0 0% 5% / 0) 0%, hsl(0 0% 5%) 100%);
+    --gradient-ink: linear-gradient(135deg, hsl(0 0% 5%) 0%, hsl(0 0% 12%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(43 52% 55%) 0%, hsl(45 73% 74%) 100%);
+    --shadow-soft: 0 1px 2px hsl(0 0% 0% / 0.08), 0 8px 24px hsl(0 0% 0% / 0.24);
+    --shadow-elev: 0 2px 4px hsl(0 0% 0% / 0.12), 0 24px 48px -12px hsl(0 0% 0% / 0.48);
 
-    --transition-smooth: 400ms cubic-bezier(0.22, 1, 0.36, 1);
+    --transition-smooth: 500ms cubic-bezier(0.22, 1, 0.36, 1);
 
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
-  .dark {
-    --background: 30 12% 8%;
-    --foreground: 36 33% 95%;
-    --card: 30 12% 10%;
-    --card-foreground: 36 33% 95%;
-    --popover: 30 12% 10%;
-    --popover-foreground: 36 33% 95%;
-    --primary: 36 33% 95%;
-    --primary-foreground: 30 18% 12%;
-    --secondary: 30 10% 16%;
-    --secondary-foreground: 36 33% 95%;
-    --muted: 30 10% 14%;
-    --muted-foreground: 30 8% 65%;
-    --accent: 28 45% 60%;
-    --accent-foreground: 30 18% 12%;
-    --destructive: 0 62% 40%;
-    --destructive-foreground: 36 33% 95%;
-    --border: 30 10% 18%;
-    --input: 30 10% 18%;
-    --ring: 36 33% 95%;
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 42 20% 80%;
+    --sidebar-primary: 43 52% 55%;
+    --sidebar-primary-foreground: 0 0% 5%;
+    --sidebar-accent: 0 0% 12%;
+    --sidebar-accent-foreground: 42 38% 92%;
+    --sidebar-border: 0 0% 18%;
+    --sidebar-ring: 43 52% 55%;
   }
 }
 
@@ -93,13 +69,13 @@
 
   body {
     @apply bg-background text-foreground antialiased;
-    font-family: 'Inter', system-ui, sans-serif;
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
     font-feature-settings: 'ss01', 'cv11';
   }
 
   h1, h2, h3, h4, .font-serif {
-    font-family: 'Fraunces', Georgia, serif;
-    font-weight: 500;
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-weight: 400;
     letter-spacing: -0.02em;
   }
 }
@@ -128,20 +104,20 @@
 }
 
 /* ============================================================
-   Visitkort (sunemoldt.dk) — scoped, isolated from main system
+   Visitkort (sunemoldt.dk) — Noir & Gold, matcher Moldt Consulting
    ============================================================ */
 .visitkort-root {
-  --vk-paper:    #f5efe3;
-  --vk-paper-2:  #ece2d0;
-  --vk-ink:      #2c2418;
-  --vk-ink-dim:  #6b6051;
-  --vk-ink-faint:#9a8f7c;
-  --vk-amber:    #b8842f;
-  --vk-amber-dp: #95681f;
+  --vk-paper:    #0d0d0d;
+  --vk-paper-2:  #1a1a1a;
+  --vk-ink:      #f0e9d6;
+  --vk-ink-dim:  #a89f88;
+  --vk-ink-faint:#6b6553;
+  --vk-amber:    #c9a84c;
+  --vk-amber-dp: #b8942f;
 
   background: var(--vk-paper);
   color: var(--vk-ink);
-  font-family: "Hanken Grotesk", "Inter", system-ui, sans-serif;
+  font-family: 'IBM Plex Sans', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -150,7 +126,6 @@
   display: grid;
   grid-template-columns: 1fr clamp(260px, 42%, 420px);
   grid-template-areas:
-    "kick  pic"
     "name  pic"
     "tag   pic"
     "note  pic"
@@ -160,23 +135,14 @@
   align-items: center;
 }
 
-.visitkort-root .kicker {
-  grid-area: kick;
-  display: flex; align-items: center; gap: .7rem;
-  font-size: .72rem; letter-spacing: .28em; text-transform: uppercase;
-  color: var(--vk-ink-dim); margin-bottom: .4rem;
-  opacity: 0; animation: vk-rise .8s .1s forwards cubic-bezier(.2,.7,.2,1);
-}
-.visitkort-root .kicker .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--vk-amber); }
-
 .visitkort-root .vk-name {
   grid-area: name;
-  font-family: "Fraunces", Georgia, serif;
-  font-weight: 380; font-size: clamp(3rem, 9vw, 5.6rem);
-  line-height: .94; letter-spacing: -.02em; color: var(--vk-ink);
+  font-family: 'Libre Baskerville', Georgia, serif;
+  font-weight: 400; font-size: clamp(3rem, 9vw, 5.6rem);
+  line-height: .98; letter-spacing: -.02em; color: var(--vk-ink);
   opacity: 0; animation: vk-rise .9s .2s forwards cubic-bezier(.2,.7,.2,1);
 }
-.visitkort-root .vk-name em { font-style: italic; font-weight: 340; color: var(--vk-amber); }
+.visitkort-root .vk-name em { font-style: italic; font-weight: 400; color: var(--vk-amber); }
 
 .visitkort-root .tagline {
   grid-area: tag; max-width: 34ch; margin-top: 1.4rem;
@@ -197,16 +163,16 @@
 }
 .visitkort-root .vk-btn {
   display: inline-flex; align-items: center; gap: .65rem;
-  padding: .9rem 1.45rem; border-radius: 100px;
+  padding: .9rem 1.45rem; border-radius: 2px;
   text-decoration: none; font-size: .97rem; font-weight: 500;
   transition: transform .35s, background .35s, color .35s, border-color .35s, box-shadow .35s;
 }
 .visitkort-root .vk-btn .arrow { opacity: .5; transition: transform .35s, opacity .35s; }
 .visitkort-root .vk-btn:hover .arrow { transform: translate(3px, -3px); opacity: 1; }
-.visitkort-root .vk-btn.primary { background: var(--vk-amber); color: #fff; box-shadow: 0 12px 24px -14px var(--vk-amber); }
+.visitkort-root .vk-btn.primary { background: var(--vk-amber); color: #0d0d0d; box-shadow: 0 12px 24px -14px var(--vk-amber); }
 .visitkort-root .vk-btn.primary:hover { background: var(--vk-amber-dp); transform: translateY(-2px); box-shadow: 0 16px 28px -12px var(--vk-amber); }
 .visitkort-root .vk-btn.ghost { border: 1px solid var(--vk-ink-faint); color: var(--vk-ink); }
-.visitkort-root .vk-btn.ghost:hover { border-color: var(--vk-amber); color: var(--vk-amber-dp); transform: translateY(-2px); }
+.visitkort-root .vk-btn.ghost:hover { border-color: var(--vk-amber); color: var(--vk-amber); transform: translateY(-2px); }
 
 .visitkort-root .pic {
   grid-area: pic; position: relative; align-self: center;
@@ -214,12 +180,13 @@
 }
 .visitkort-root .pic::before {
   content: ""; position: absolute; inset: 0; transform: translate(16px, 16px);
-  border-radius: 14px; background: var(--vk-amber); z-index: 1;
+  border-radius: 2px; background: var(--vk-amber); z-index: 1;
 }
 .visitkort-root .pic img {
   position: relative; z-index: 2; width: 100%; height: auto; display: block;
-  border-radius: 14px; box-shadow: 0 30px 55px -28px rgba(44, 36, 24, .5);
-  outline: 1px solid rgba(44, 36, 24, .06); outline-offset: -1px;
+  border-radius: 2px; box-shadow: 0 30px 55px -28px rgba(0, 0, 0, .8);
+  outline: 1px solid rgba(240, 233, 214, .08); outline-offset: -1px;
+  filter: grayscale(15%) contrast(1.02);
 }
 
 @keyframes vk-rise {
@@ -230,7 +197,7 @@
 @media (max-width: 820px) {
   .visitkort-root .vk-card {
     grid-template-columns: 1fr;
-    grid-template-areas: "kick" "name" "pic" "tag" "note" "links";
+    grid-template-areas: "name" "pic" "tag" "note" "links";
     row-gap: .4rem;
   }
   .visitkort-root .pic { max-width: 300px; margin: 1.8rem 0 .4rem; }
@@ -239,11 +206,11 @@
 
 @media (prefers-reduced-motion: reduce) {
   .visitkort-root * { animation: none !important; }
-  .visitkort-root .kicker,
   .visitkort-root .vk-name,
   .visitkort-root .tagline,
   .visitkort-root .note,
   .visitkort-root .links,
   .visitkort-root .pic { opacity: 1; }
 }
+
 

@@ -27,7 +27,7 @@ const Visitkort = () => {
           className="pointer-events-none fixed inset-0 z-0"
           style={{
             background:
-              "radial-gradient(110% 75% at 88% -5%, rgba(184,132,47,.13), transparent 55%), radial-gradient(80% 60% at -5% 105%, rgba(184,132,47,.07), transparent 55%)",
+              "radial-gradient(110% 75% at 88% -5%, rgba(201,168,76,.15), transparent 55%), radial-gradient(80% 60% at -5% 105%, rgba(201,168,76,.08), transparent 55%)",
           }}
         />
         {/* subtle noise */}
