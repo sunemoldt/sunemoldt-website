@@ -1,7 +1,8 @@
 import { Helmet } from "react-helmet-async";
 import { Mail, Linkedin, ArrowUpRight } from "lucide-react";
 
-const MAIL = "sune@sunemoldt.dk";
+const MAIL = "mail@sunemoldt.dk";
+const MAIL_SUBJECT = "mail fra sunemoldt.dk";
 const LINKEDIN = "https://www.linkedin.com/in/sunemoldt/";
 
 const Visitkort = () => {
@@ -66,7 +67,7 @@ const Visitkort = () => {
             </p>
 
             <div className="links">
-              <a className="vk-btn primary" href={`mailto:${MAIL}`}>
+              <a className="vk-btn primary" href={`mailto:${MAIL}?subject=${encodeURIComponent(MAIL_SUBJECT)}`}>
                 <Mail size={18} strokeWidth={1.7} />
                 Skriv til mig
                 <ArrowUpRight size={14} className="arrow" />
