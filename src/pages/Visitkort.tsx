@@ -9,12 +9,12 @@ const Visitkort = () => {
   return (
     <>
       <Helmet>
-        <title>Sune Moldt | Digital Strateg</title>
+        <title>Sune Moldt | Digital Marketing & E-commerce Leder</title>
         <link rel="canonical" href="/" />
-        <meta property="og:title" content="Sune Moldt | Digital Strateg" />
+        <meta property="og:title" content="Sune Moldt | Digital Marketing & E-commerce Leder" />
         <meta
           property="og:description"
-          content="Digital strateg fra Aabenraa. E-commerce, marketing og teknologi der binder marketing, IT og salg sammen."
+          content="Digital Marketing & E-commerce leder. Jeg arbejder med AI, automation og digital transformation — fra strategi til eksekvering."
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="/" />
@@ -59,7 +59,7 @@ const Visitkort = () => {
             </div>
 
             <p className="tagline">
-              AI, Digital Marketing & E-commerce. Værdien skabes i <strong>snitfladen mellem marketing, tech og salg</strong>.
+              Digital Marketing & E-commerce leder. Fra strategi til eksekvering gennem AI, automation og digital transformation.
             </p>
 
             <p className="note">
