@@ -59,7 +59,7 @@ const Visitkort = () => {
             </div>
 
             <p className="tagline">
-              Digital Marketing & E-commerce leder. Fra strategi til eksekvering gennem AI, automation og digital transformation.
+              Digital transformation, AI &amp; automation. E-commerce &amp; marketing · Forretningsudvikling · Digital strategi
             </p>
 
             <p className="note">
