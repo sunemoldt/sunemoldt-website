@@ -63,7 +63,7 @@ const Visitkort = () => {
               <br />
               E-commerce &amp; marketing.
               <br />
-              Forretningsudvikling · Digital strategi
+              Forretningsudvikling · Digital strategi.
             </p>
 
             <p className="note">
