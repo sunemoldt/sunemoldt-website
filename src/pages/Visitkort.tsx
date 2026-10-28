@@ -59,7 +59,9 @@ const Visitkort = () => {
             </div>
 
             <p className="tagline">
-              Digital transformation, AI &amp; automation. E-commerce &amp; marketing · Forretningsudvikling · Digital strategi
+              Digital transformation, AI &amp; automation.
+              <br />
+              E-commerce &amp; marketing · Forretningsudvikling · Digital strategi
             </p>
 
             <p className="note">
